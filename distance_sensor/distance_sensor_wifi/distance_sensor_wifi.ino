@@ -4,9 +4,9 @@
 WiFiClient wifiClient;
 
 int redPin = 13; 
-int greenPin = 12;//GPIO 13 corresponds to pin D7. You can check the pinout.
-const int trigPin = 14;
-const int echoPin = 16;
+int greenPin = 15;//GPIO 13 corresponds to pin D7. You can check the pinout.
+const int trigPin = 12;
+const int echoPin = 14;
 long duration, distance;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 void setup(){
